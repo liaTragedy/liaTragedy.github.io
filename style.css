@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Protest+Revolution&display=swap');
+body{
+    margin:0px;
+    padding:0px;
+    position: relative;
+    background-color: #f3ba41;
+}
+ *{
+    
+    list-style: none;
+    text-decoration: none;
+ }
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+nav{
+    background-color: #F3BA41;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    width: 100%;
+    height: 80px;
+}
+header{
+    
+    position: fixed;   
+    top:0;
+    width: 100%;
+    z-index: 3;
+    
+}
+
+nav>img{
+    width: 40px;
+    height: 40px;
+}
+
+nav>ul>li>a>img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    
+}
+
+.principal{
+    display:flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+.contenedor1 {
+    background-color: #000;
+    width: 250px;
+    height: 90%;
+    top: 80px;
+    left:0px;
+    bottom: 70px;
+    position:fixed;
+    
+}
+
+
+.contenedor2{
+    background-color: #52cffe;
+    width: 500px;
+    height: 300px;
+    margin-left:200px;
+    margin-top: 20px;
+    
+
+}
+
+.contenedor3{
+    width: 400px;
+    height: 370px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom:15px;
+    text-align: center;
+    
+}
+
+.efecto{    
+    top:20%;
+    left:20%;
+    transform: translate(0%,0%);
+    display: flex;
+}
+
+nav>ul>li{
+    list-style: none;
+    font-weight: 200;
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    color: #000;
+    text-shadow: 2px 2px 8px #90e8f4;
+    animation: anim 7s infinite;
+    font-family: "Lilita One", sans-serif;
+}
+
+@keyframes anim {
+    0%{
+        color:#000;
+        text-shadow: none;
+    }
+    18%{
+        color:#000;
+        text-shadow: none; 
+    }
+    20%{
+        color: #fff;
+        text-shadow: 2px 2px 8px #90e8f4;
+        /*-webkit-text-stroke: 1px #fff;*/
+    }
+    30%{
+        color:#000;
+        text-shadow: none; 
+    }
+    35%{
+        color: #fff;
+        text-shadow: 2px 2px 8px #90e8f4;
+        /*-webkit-text-stroke: 1px #fff;*/
+    }
+    70%{
+        color:#000;
+        text-shadow: none; 
+    }
+    85%{
+        color: #fff;
+        text-shadow: 2px 2px 8px #90e8f4
+        /*-webkit-text-stroke: 1px #fff;*/
+    }
+    90%{
+        color:#fff;
+        text-shadow: none; 
+       
+    }
+    100%{
+        color: #fff;
+        text-shadow: 2px 2px 8px #90e8f4
+        /*-webkit-text-stroke: 1px #fff;*/
+    }
+}
+ul li:nth-child(1){
+    animation-delay: .2s;
+}
+ul li:nth-child(2){
+    animation-delay: .4s;
+}
+ul li:nth-child(3){
+    animation-delay: .6;
+}
+ul li:nth-child(4){
+    animation-delay: .8s;
+}
+ul li:nth-child(5){
+    animation-delay: 1;
+}
+ul li:nth-child(6){
+    animation-delay: 1.2s;
+}
+ul li:nth-child(7){
+    animation-delay: 1.4;
+}
+ul li:nth-child(8){
+    animation-delay: 1.6s;
+}
+ul li:nth-child(8){
+    animation-delay: 1.8s;
+}
+ul li:nth-child(8){
+    animation-delay: 2s;
+}
+ul li:nth-child(8){
+    animation-delay: 2.2s;
+}
+ul li:nth-child(8){
+    animation-delay: 2.4s;
+}
+ul li:nth-child(8){
+    animation-delay: 2.6s;
+}
+ul li:nth-child(8){
+    animation-delay: 2.8s;
+}
+ul li:nth-child(8){
+    animation-delay: 3;
+}
+ul li:nth-child(8){
+    animation-delay: 3.2s;
+}
+ul li:nth-child(8){
+    animation-delay: 3.4s;
+}
+ul li:nth-child(8){
+    animation-delay: 3.6s;
+}
+ul li:nth-child(8){
+    animation-delay: 3.8s;
+}
+ul li:nth-child(8){
+    animation-delay: 4s;
+}
+
+.botones{
+    display: flex;
+    
+}
+
+.footer-s{
+    display: flex;
+    justify-content: space-between;
+}
+footer>div>div>a>img{
+    width: 30px;
+    height: 30px;
+}
+.iconos{
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.footer-s{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    z-index: 3;
+    background-color:#F3BA41;
+}
+
+.contenedor1>h1{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+    font-family: "Lilita One", sans-serif;
+    line-height: 80px;
+    user-select: none;
+    background-color: #555;
+}
+
+.contenedor1 ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height:25px;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Lilita One", sans-serif;
+    text-decoration: none;
+    border-top:1px solid rgba(252, 248, 248, 0.1);
+    border-bottom: 1px solid #555;    
+    box-sizing: border-box;
+    transition: .4s;
+} 
+
+.contenedor1 ul li{
+    left:0;
+}
+.contenedor1 ul li:hover a{
+    padding-left: 50px;
+}
+
+.contenedor1 ul img{
+    height: 50px;
+    width: 50px;
+    
+    
+}
+/*
+.carrusel{
+    overflow: hidden;
+}*/
+
+#carouselExampleDark{
+    
+    width: 500px;
+    height: 250px;
+    z-index: 1;
+
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom:50%
+    right:50%
+    transform: translate(-50%, -50%);*/
+}
+
+.titulo-s{
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    font-size: 15px;
+}
+
+.text-s{
+    color:#fff;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 10px;
+}
+
+@media(max-width:1250px){
+    .principal{
+        display: block;
+    }
+    div{
+        width:100%;
+    }
+
+}
+
+
+.info{
+    width: 90%;
+    height: 70%;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.mapa{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 80%;
+    height: 30%;
+}
+
+.map{
+    margin-left: 30px;
+    margin-top: 50px;
+    border-style: #000 10px;
+}
+
+.video-a{
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.opcion{
+    margin-top: 20px;
+}
+
+.cap>tr>th>img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.cap>tr>th>img{
+    width: 40px;
+    height: 35px;
+}
